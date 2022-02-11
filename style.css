@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* 画面のスタイルシート */
+body {
+    font-family: "Noto Sans JP",sans-serif;
+    margin: 0;
+    min-width: 1076px;
+    color:rgb(98 101 103);
+}
+.header-list{
+    list-style: none;
+    display:flex;
+    text-align:center;
+    line-height:0.8;
+}
+.header-list li img{
+    width: 30px;
+    margin: 10px 10px 0 ;
+}
+
+.header-list li h3{
+    margin:0 10px 0;
+    font-size:10px
+}
+
+.header-list li p{
+    margin:0 10px;
+}
+.name-img{
+    display:flex;
+    list-style:none;
+    border:1px solid #d47e7e;
+    margin:10px 0;
+    padding:20px;
+    justify-content: center;
+}
+.name-img li h1{
+    font-size:80px;
+    margin:0;
+}
+
+.name-img li h2{
+    color:#d47e7e;
+    font-size:20px;
+}
+
+.name-img li img{
+    margin:100px 1px 1px 1px;
+}
