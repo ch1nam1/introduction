@@ -11,21 +11,35 @@
     <header>
         <div class="header-list">
             <li>
-                <img src="./img/home.png" alt="Homeの画像">
+                <a href="#home">
+                    <img src="./img/home.png" alt="Homeの画像">
+                </a>
                 <h3>Home</h3>
                 <p>........</p>
             </li>
             <li>
-                <img src="./img/about.png" alt="Aboutの画像">
+                <a href="#about">
+                    <img src="./img/about.png" alt="Aboutの画像">
+                </a>
                 <h3>About</h3>
                 <p>........</p>
             <li>
-                <img src="./img/projects.png" alt="Projectsの画像">
+                <a href="#projects">
+                    <img src="./img/projects.png" alt="Projectsの画像">
+                </a>
                 <h3>Projects</h3>
                 <p>........</p>
             </li>
+            <li>
+                <a href="#contact">
+                    <img src="./img/contact.png" alt="contactの画像">
+                </a>
+                <h3>contact</h3>
+                <p>........</p>
+            </li>
         </div>
-        <div class="name-img">
+    </header>
+        <div id="home" class="name-img">
             <li>
                 <h1>
                     Chinami<br>Mori
@@ -38,38 +52,118 @@
             <li>
                 <img src="./img/れなちゃん.png" alt="れなちゃんの画像">
             </li>
+        </div>
+        <div id="about" class="box-about">
+            <div class="sub-title">
+                <p>
+                    About <br>
+                    ........
+                    <img src="./img/矢印下.png" alt="矢印">
+                    ........
+                </p>
             </div>
-    </header>
-    <div class="box-about">
-        <div class="sub-title">
-            About
+            <div class="item-list">
+                <h2>
+                    HTML / CSS / JavaScript/ PHP / Adobe XD 
+                </h2>
+                <h3>
+                    ウェルッシュコーギー・ペンブローグ、
+                    ２００６年４月2日生まれの女の子！
+                    愛犬れなちゃんって可愛いよね！
+                </h3>
+                <h4>
+                    chinami-0110@outlook.jp
+                </h4>
+            </div>
+            <ul class="icon-list">
+                <li>
+                    <img src="./img/github.png" alt="git hubのアイコン">
+                </li>
+                <li>
+                    <img src="./img/facebook.png" alt="facebookのアイコン">
+                </li>
+            </ul>
         </div>
-        <p>
-            ........
-            <img src="./img/矢印下.png" alt="矢印">
-            ........
-        </p>
-        <div class="item-list">
-            <h2>
-                HTML / CSS / JavaScript/ PHP / Adobe XD 
-            </h2>
-            <h3>
-                ウェルッシュコーギー・ペンブローグ、
-                ２００６年４月2日生まれの女の子！
-                愛犬れなちゃんって可愛いよね！
-            </h3>
-            <h4>
-                chinami-0110@outlook.jp
-            </h4>
+        <div id="projects" class="box-projects">
+            <div class="sub-title">
+                <p>
+                    Projects <br>
+                    ........
+                    <img src="./img/矢印下.png" alt="矢印">
+                    ........
+                </p>
+            </div>
+            <div class="projects-list">
+                <ul>
+                    <li>
+                        <img src="./img/twitterクローン.png" alt="twtterクローンの写真">
+                        <p>
+                            twitterクローン
+                        </p>
+                        <h3>
+                            twitterの複製アプリです。ツイートを投稿できます。
+                            <br>PHP / MySQLを利用しています。
+                            <br>テストアカウント
+                            <br>E-mail:chinami-0110@outlook.jp
+                            <br>pass:123456
+                        </h3>
+                        <div class="link">
+                            <a href="">WebSite</a>
+                            <a href="">GitHub</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/Netflixクローン.png" alt="Netflixクローンの写真">
+                        <p>
+                            Netflixクローン
+                        </p>
+                        <h3>
+                            Netflixの複製サービスです。
+                            <br>Laravel / MySQLを利用しています。
+                            <br>テストアカウント
+                            <br>E-mail:chinami-0110@outlook.jp
+                            <br>pass:123456
+                        </h3>
+                        <div class="link">
+                            <a href="">WebSite</a>
+                            <a href="">GitHub</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <ul class="icon-list">
-            <li>
-                <img src="./img/github.png" alt="git hubのアイコン">
-            </li>
-            <li>
-                <img src="./img/facebook.png" alt="facebookのアイコン">
-            </li>
-        </ul>
-    </div>
+        <div class="box-contact">
+            <div class="sub-title">
+                <p>
+                    Contact <span>Me</span><br>
+                    ........
+                    <img src="./img/矢印下.png" alt="矢印">
+                    ........
+                </p>
+            </div>
+            <div id="contact" class="contact-list">
+                <ul>
+                    <li>
+                        <img src="./img/携帯.png" alt="携帯の画像">
+                        <p>PHONE</p>
+                        <p><address>
+                            <a href="tel:090-3305-4197">090-3305-4197</a>
+                        </address>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="./img/メール.png" alt="メールの画像">
+                        <p>EMAIL</p>
+                        <p><address>
+                            <a href="mailto:chinami-0110@outlook.jp">chinami-0110@outlook.jp</a>
+                        </address>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <footer class="box-footer">
+        <p>©︎Chinami Mori All right reserved</p>
+    </footer>
 </body>
 </html>

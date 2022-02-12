@@ -8,12 +8,35 @@ body {
     color:rgb(98 101 103);
 }
 
+span{
+    color:#d47e7e;
+}
+
+address a{
+    font-style: normal;
+    color:rgb(98 101 103);
+}
+address a:hover{
+    color:#d47e7e;
+    text-decoration: underline dotted #d47e7e 2px;
+}
 /*[header]のスタイルシート*/
+header{
+    position:sticky;
+    width:100%;
+    display:block;
+    background-color:rgb(255 255 255);
+    top:0;
+    z-index:100%;
+}
+
 .header-list{
     list-style: none;
     display:flex;
     text-align:center;
     line-height:0.8;
+    border-bottom:1px solid #d47e7e;
+    width: 100%;
 }
 .header-list li img{
     width: 30px;
@@ -28,11 +51,12 @@ body {
 .header-list li p{
     margin:0 10px;
 }
+
+/*[name]のスタイルシート*/
 .name-img{
     display:flex;
     list-style:none;
-    border-top:1px solid #d47e7e;
-    margin:10px 0;
+    margin:10px 0 0;
     padding:20px;
     justify-content: center;
 }
@@ -63,19 +87,19 @@ body {
     margin:0;
 }
 
-.box-about p{
+.sub-title p{
     font-size:50px;
-    margin:0;
-    line-height: 0;
+    margin:0 0 100px;
+    line-height: 1;
 }
 
-.box-about p img{
+.sub-title p img{
     height:25px;
 
 }
 
 .item-list{
-    margin:100px 0 0;
+    margin:0;
     line-height:3;
 }
 
@@ -104,4 +128,83 @@ body {
 .icon-list li img{
     width:50px;
     margin:0px 10px;
+}
+/*[projects]のスタイルシート*/
+
+.box-projects{
+    text-align:center;
+    padding:20px;
+}
+
+.projects-list ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    margin:0;
+}
+
+.projects-list ul li{
+    margin:50px;
+}
+
+.projects-list img{
+    height:200px;
+    border-radius:16px;
+    padding:20px;
+    border:1px solid #d47e7e
+}
+
+.projects-list p{
+    font-size:25px;
+    font-weight:bold;
+}
+
+.projects-list h3{
+    font-size:14px;
+}
+
+.link a{
+    background-color:#d47e7e;
+    color:#fff;
+    padding:5px;
+    margin:10px;
+    text-decoration:none;
+}
+
+/*[ContactMe]のスタイルシート*/
+.box-contact{
+    text-align: center;
+    margin:0 0 100px;
+}
+
+.contact-list ul{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list li{
+    list-style: none;
+    background-color:#d7d4d4aa;
+    border-bottom:3px solid #d47e7e;
+    margin:0 50px 0;
+    padding:20px;
+    width:250px;
+    height:150px;
+}
+.contact-list img{
+    height:70px;
+    margin:5px;
+}
+
+.contact-list p{
+    font-size:15px;
+    margin:10px;
+    font-weight:bold;
+}
+
+/*[footer]のデザインシート*/
+.box-footer{
+    text-align: center;
+    background-color: #d7d4d4aa;
+    padding: 10px;
 }
